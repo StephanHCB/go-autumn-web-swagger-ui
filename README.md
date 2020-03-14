@@ -37,12 +37,23 @@ https://github.com/swagger-api/swagger-ui
 A library that provides a static go source file for the [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
 distributable ui module.
 
+## How to regenerate
+
+- update swagger ui files
+- delete assets_vfsdata.go
+- rename the package to `main` in main.go
+- run main.go
+- change package back to `auwebswaggerui` in both main.go and generated file
+- capitalize var assets to Assets so it becomes exported
+
 ## How to use
 
 Simply import the module using go.mod.
 
 The main.go file is really just here to re-generate the static source code, if swagger-ui has been updated.
 
+`auwebswaggerui.Assets` is an instance of http.FileSystem, so you can do stuff like
+
 ```
-TODO further instructions
+  http.Handle("/swagger-ui/", http.FileServer(auwebswaggerui.Assets))
 ```
