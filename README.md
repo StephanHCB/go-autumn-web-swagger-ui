@@ -16,7 +16,7 @@ Fall is my favourite season, so I'm calling it _go-autumn_.
 
 The static files included under third_party/swagger_ui are
 
-                          Copyright 2020 SmartBear Software Inc.
+                          Copyright 2020-2021 SmartBear Software Inc.
 
 They are licensed under
 
@@ -40,6 +40,7 @@ distributable ui module.
 ## How to regenerate
 
 - update swagger ui files
+- do not forget to retain LICENSE and README.txt
 - delete assets_vfsdata.go
 - rename the package to `main` in main.go
 - run main.go
