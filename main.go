@@ -1,4 +1,4 @@
-package auwebswaggerui
+package main
 
 import (
 	"github.com/shurcooL/vfsgen"
