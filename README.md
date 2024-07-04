@@ -40,6 +40,7 @@ distributable ui module.
 ## How to regenerate
 
 - update swagger ui files
+- update default url from 'https://petstore.swagger.io/v2/swagger.json' to '/v3/api-docs' in swagger-initializer.js
 - do not forget to retain LICENSE and README.txt
 - delete assets_vfsdata.go
 - rename the package to `main` in main.go
