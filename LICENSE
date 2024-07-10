@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 StephanHCB
+Copyright (c) 2020-2024 StephanHCB
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 The static files included under third_party/swagger_ui are
 
-                          Copyright 2020 SmartBear Software Inc.
+                          Copyright 2020-2021 SmartBear Software Inc.
 
 They are licensed under
 
