@@ -1,17 +1,5 @@
 # go-autumn-web-swagger-ui
 
-## About go-autumn
-
-A collection of libraries for [enterprise microservices](https://github.com/StephanHCB/go-mailer-service/blob/master/README.md) in golang that
-- is heavily inspired by Spring Boot / Spring Cloud
-- is very opinionated
-- names modules by what they do
-- unlike Spring Boot avoids certain types of auto-magical behaviour
-- is not a library monolith, that is every part only depends on the api parts of the other components
-  (if at all), and the api parts do not add any dependencies.
-
-Fall is my favourite season, so I'm calling it _go-autumn_.
-
 ## IMPORTANT Third Party Licensing Information
 
 The static files included under third_party/swagger_ui are
